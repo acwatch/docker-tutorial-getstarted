@@ -7,9 +7,9 @@ $ mkdir ./data
 ```
 
 - And then change mounting volume of Redis in docker-compose.yml
-> volumes:
->      - /{running directory}/docker-tutorial-getstarted/data:/data
-
+```
+- /{running directory}/docker-tutorial-getstarted/data:/data
+```
 
 How to run this GetStartedLab
 ``` bash
